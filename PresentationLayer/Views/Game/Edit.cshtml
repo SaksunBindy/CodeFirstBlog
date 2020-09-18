@@ -1,0 +1,80 @@
+﻿@{
+    Layout = "_GameLayout";
+}
+@model PresentationLayer.Models.EditGameViewModel;
+@using DataLayer.Models;
+
+<form asp-action="Edit" enctype="multipart/form-data" method="post">
+    <div class="row">
+        <div class="col-sm-6">
+            <label> Insert Game Name </label>
+            <br>
+            @Html.TextBoxFor(model => model.GameModel.Name, new { @Value = Model.GameModel.Name })
+            <br>
+            <br>
+        </div>
+        <div class="col-sm-6">
+            <label> Insert City </label>
+            <br>
+            @Html.TextBoxFor(model => model.GameModel.City, new { @Value = Model.GameModel.City })
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <label> Select spots </label>
+            <br>
+            @foreach (Spot spot in Model.Spots)
+            {
+                bool checkTicked = false;
+                foreach (IntersectionGameSpot intersectionGameSpot in Model.IntersectionGameSpots)
+                {
+                    if (intersectionGameSpot.SpotId == spot.Id && intersectionGameSpot.GameId == Model.GameModel.Id)
+                    {
+                        checkTicked = true;
+                    }
+                }
+                if (checkTicked)
+                {
+                    <input type="checkbox" id="@spot.Id" name="@spot.Id" value="@spot.Name" checked>
+                }
+                else
+                {
+                    <input type="checkbox" id="@spot.Id" name="@spot.Id" value="@spot.Name">
+                }
+                <label for="@spot.Id">@spot.Name</label>
+                <br>
+            }
+
+        </div>
+        <div class="col-sm-6">
+            <label> Select Rewards </label>
+            <br>
+            @foreach (Reward reward in Model.Rewards)
+            {
+                bool checkTicked = false;
+                foreach (IntersectionGameReward intersectionGameReward in Model.IntersectionGameRewards)
+                {
+                    if (intersectionGameReward.RewardId == reward.Id && intersectionGameReward.GameId == Model.GameModel.Id)
+                    {
+                        checkTicked = true;
+                    }
+                }
+                if (checkTicked)
+                {
+                    <input type="checkbox" id="@reward.Id" name="@reward.Id" value="@reward.Name" checked>
+                }
+                else
+                {
+                    <input type="checkbox" id="@reward.Id" name="@reward.Id" value="@reward.Name">
+                }
+                <label for="@reward.Id">@reward.Name</label>
+                <br>
+            }
+        </div>
+    </div>
+    <div class="form-group" style="padding-top:20px;padding-left:12px">
+        <input type="submit" value="Confirm" class="btn btn-success" />
+    </div>
+</form>

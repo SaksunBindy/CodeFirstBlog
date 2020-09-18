@@ -1,0 +1,58 @@
+﻿@{
+    Layout = "_RewardLayout";
+}
+
+@model List<Reward>;
+@using DataLayer.Models;
+
+
+<div>
+    <a asp-action="AddReward" class="btn btn-success">Add Reward</a>
+</div>
+<h1></h1>
+
+<table id="myTable" class="table" cellspacing="0">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Rank
+            </th>
+            <th>
+                Edit
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Reward reward in Model)
+        {
+            <tr>
+                <td>
+                    @reward.Name
+                </td>
+                <td>
+                    @reward.Rank
+                </td>
+                <td>
+                    <div>
+                        <a asp-controller="Reward" asp-action="Edit" asp-route-id="@reward.Id">Edit</a>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <a asp-controller="Reward" asp-action="Delete" asp-route-id="@reward.Id">Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+

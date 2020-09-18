@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Tiab\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Tiab\\.nuget\\packages"
+    ]
+  }
+}

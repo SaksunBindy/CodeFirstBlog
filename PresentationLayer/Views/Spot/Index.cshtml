@@ -1,0 +1,58 @@
+﻿@{
+    Layout = "_SpotLayout";
+}
+
+@model List<Spot>;
+@using DataLayer.Models;
+
+
+<div>
+    <a asp-action="AddSpot" class="btn btn-success">Add Spot</a>
+</div>
+<h1></h1>
+
+<table id="myTable" class="table" cellspacing="0">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Difficulty
+            </th>
+            <th>
+                Edit
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Spot spot in Model)
+        {
+            <tr>
+                <td>
+                    @spot.Name
+                </td>
+                <td>
+                    @spot.Difficulty
+                </td>
+                <td>
+                    <div>
+                        <a asp-controller="Spot" asp-action="Edit" asp-route-id="@spot.Id">Edit</a>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <a asp-controller="Spot" asp-action="Delete" asp-route-id="@spot.Id">Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+

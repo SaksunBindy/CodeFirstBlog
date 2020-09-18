@@ -1,0 +1,8 @@
+C:\Users\Tiab\OneDrive - University of Bristol\Work\Bindy\CRUDGameInterface\DataLayer\bin\Debug\netstandard2.0\DataLayer.deps.json
+C:\Users\Tiab\OneDrive - University of Bristol\Work\Bindy\CRUDGameInterface\DataLayer\bin\Debug\netstandard2.0\DataLayer.dll
+C:\Users\Tiab\OneDrive - University of Bristol\Work\Bindy\CRUDGameInterface\DataLayer\obj\Debug\netstandard2.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\Tiab\OneDrive - University of Bristol\Work\Bindy\CRUDGameInterface\DataLayer\obj\Debug\netstandard2.0\DataLayer.AssemblyInfo.cs
+C:\Users\Tiab\OneDrive - University of Bristol\Work\Bindy\CRUDGameInterface\DataLayer\bin\Debug\netstandard2.0\DataLayer.pdb
+C:\Users\Tiab\OneDrive - University of Bristol\Work\Bindy\CRUDGameInterface\DataLayer\obj\Debug\netstandard2.0\DataLayer.dll
+C:\Users\Tiab\OneDrive - University of Bristol\Work\Bindy\CRUDGameInterface\DataLayer\obj\Debug\netstandard2.0\DataLayer.pdb
+C:\Users\Tiab\OneDrive - University of Bristol\Work\Bindy\CRUDGameInterface\DataLayer\obj\Debug\netstandard2.0\DataLayer.csproj.CoreCompileInputs.cache

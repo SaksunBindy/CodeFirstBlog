@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "_RewardLayout";
+}
+
+@model Reward;
+@using DataLayer.Models;
+
+
+
+@using (Html.BeginForm("Edit", "Reward", FormMethod.Post))
+{
+    <label> Insert Reward Name </label>
+    <br>
+    @Html.TextBoxFor(model => model.Name, new { @Value = Model.Name })
+    <br>
+    <br>
+    <label> Select Reward Rank </label>
+    @Html.DropDownListFor(model => model.Rank, new SelectList(new List<string> { "Gold", "Silver", "Bronze" }, Model.Rank))
+
+
+
+    <div class="form-group" style="padding-top:20px;padding-left:12px">
+        <input type="submit" value="Confirm" class="btn btn-success" />
+    </div>
+}

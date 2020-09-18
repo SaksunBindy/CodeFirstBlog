@@ -1,0 +1,70 @@
+﻿@{
+    Layout = "_GameLayout";
+}
+
+@model List<GameModel>;
+@using DataLayer.Models;
+
+
+<div>
+    <a asp-action="AddGame" class="btn btn-success">Add Game</a>
+</div>
+<h1></h1>
+
+<table id="myTable" class="table" cellspacing="0">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                City
+            </th>
+            <th>
+                Number Of Spots
+            </th>
+            <th>
+                Number Of Rewards
+            </th>
+            <th>
+                Edit
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (GameModel game in Model)
+        {
+            <tr>
+                <td>
+                    @game.Name
+                </td>
+                <td>
+                    @game.City
+                </td>
+                <td>
+                    @game.IntersectionGameSpots.Count()
+                </td>
+                <td>
+                    @game.IntersectionGameRewards.Count()
+                </td>
+                <td>
+                    <div>
+                        <a asp-controller="Game" asp-action="Edit" asp-route-id="@game.Id">Edit</a>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <a asp-controller="Game" asp-action="Delete" asp-route-id="@game.Id">Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
