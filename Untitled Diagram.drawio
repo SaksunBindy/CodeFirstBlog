@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T14:41:57.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="9gMyL0-x5JqXANzGwE16" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-16T14:47:01.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="C-Oc7eRKFOutb9clvFGo" version="13.9.7" type="github">
   <diagram id="JN9SQGumUfse3FGNZzMo" name="Page-1">
     <mxGraphModel dx="1349" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,27 +78,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XRyb0xycZNulAZf5XCpH-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.167;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.003;entryY=0.548;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XRyb0xycZNulAZf5XCpH-14" target="XRyb0xycZNulAZf5XCpH-17">
+        <mxCell id="XRyb0xycZNulAZf5XCpH-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.548;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XRyb0xycZNulAZf5XCpH-14" target="XRyb0xycZNulAZf5XCpH-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1130" y="640" as="sourcePoint" />
+            <mxPoint x="1230" y="610" as="sourcePoint" />
             <mxPoint x="810" y="600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1160" y="660" />
-              <mxPoint x="1120" y="660" />
-              <mxPoint x="1120" y="600" />
+              <mxPoint x="1220" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="XRyb0xycZNulAZf5XCpH-85" value="Azure storage&lt;br&gt;(stgassets0kokara)" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_mini_3;" vertex="1" parent="1">
           <mxGeometry x="1160" y="440" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XRyb0xycZNulAZf5XCpH-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.677;exitY=0.051;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XRyb0xycZNulAZf5XCpH-17" target="XRyb0xycZNulAZf5XCpH-85">
+        <mxCell id="XRyb0xycZNulAZf5XCpH-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.592;exitY=0.041;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XRyb0xycZNulAZf5XCpH-49" target="XRyb0xycZNulAZf5XCpH-85">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="540" as="sourcePoint" />
+            <mxPoint x="990" y="610" as="sourcePoint" />
             <mxPoint x="1170" y="570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="760" y="546" />
-              <mxPoint x="760" y="510" />
+              <mxPoint x="990" y="615" />
+              <mxPoint x="990" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -107,8 +105,8 @@
             <mxPoint x="1170" y="680.0344827586207" as="sourcePoint" />
             <mxPoint x="800" y="590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1120" y="540" />
-              <mxPoint x="1120" y="590" />
+              <mxPoint x="880" y="490" />
+              <mxPoint x="880" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -154,9 +152,9 @@
         <mxCell id="XRyb0xycZNulAZf5XCpH-107" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_6_blue-128.png" vertex="1" parent="1">
           <mxGeometry x="1280" y="649" width="20" height="20" as="geometry" />
         </mxCell>
-        <UserObject label="See here for an explanations of each numbered service." link="https://github.com/BindyStreet/Wiki/wiki/Auth-Architecture" id="XRyb0xycZNulAZf5XCpH-108">
+        <UserObject label="Explanation of each numbered service can be found at:&lt;br&gt;https://github.com/BindyStreet/Wiki/wiki/Auth-Architecture" link="https://github.com/BindyStreet/Wiki/wiki/Auth-Architecture" id="XRyb0xycZNulAZf5XCpH-108">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-            <mxGeometry x="370" y="440" width="180" height="40" as="geometry" />
+            <mxGeometry x="264" y="430" width="320" height="60" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
