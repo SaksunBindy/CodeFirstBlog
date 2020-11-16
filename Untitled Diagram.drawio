@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T14:05:37.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="fn73m1kMPp6mv9JTEiKB" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-16T14:16:45.151Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="xSN7v6vxi_PEHFVg7iuh" version="13.9.7" type="github">
   <diagram id="JN9SQGumUfse3FGNZzMo" name="Page-1">
     <mxGraphModel dx="1090" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,9 +7,9 @@
         <mxCell id="XRyb0xycZNulAZf5XCpH-14" value="Kokara DB" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_mini_3;" vertex="1" parent="1">
           <mxGeometry x="1160" y="630" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XRyb0xycZNulAZf5XCpH-36" value="" style="endArrow=classic;html=1;entryX=0.001;entryY=0.366;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.013;exitY=0.445;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XRyb0xycZNulAZf5XCpH-95" target="XRyb0xycZNulAZf5XCpH-17">
+        <mxCell id="XRyb0xycZNulAZf5XCpH-36" value="" style="endArrow=classic;html=1;entryX=0.001;entryY=0.366;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.013;exitY=0.445;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="XRyb0xycZNulAZf5XCpH-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="580" as="sourcePoint" />
+            <mxPoint x="489.664" y="578.6700000000001" as="sourcePoint" />
             <mxPoint x="680" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -59,10 +59,10 @@
         <mxCell id="XRyb0xycZNulAZf5XCpH-49" value="Model Validation" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=10.5;fillColor=#10739E;strokeColor=none;" vertex="1" parent="XRyb0xycZNulAZf5XCpH-68">
           <mxGeometry x="320" y="170" width="120" height="109.71" as="geometry" />
         </mxCell>
-        <mxCell id="XRyb0xycZNulAZf5XCpH-78" value="" style="endArrow=classic;html=1;exitX=0.011;exitY=0.634;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.995;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XRyb0xycZNulAZf5XCpH-17" target="XRyb0xycZNulAZf5XCpH-95">
+        <mxCell id="XRyb0xycZNulAZf5XCpH-78" value="" style="endArrow=classic;html=1;exitX=0.011;exitY=0.634;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.995;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XRyb0xycZNulAZf5XCpH-17">
           <mxGeometry x="10" y="10" width="37.5" height="50" as="geometry">
             <mxPoint x="808.1515384615386" y="591.6074000968649" as="sourcePoint" />
-            <mxPoint x="521" y="600" as="targetPoint" />
+            <mxPoint x="487.3600000000001" y="609.2620000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XRyb0xycZNulAZf5XCpH-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.02;exitY=0.745;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XRyb0xycZNulAZf5XCpH-49" target="XRyb0xycZNulAZf5XCpH-14">
@@ -133,8 +133,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XRyb0xycZNulAZf5XCpH-95" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/streamline-icon-set-free-pack/48/Streamline-17-128.png" vertex="1" parent="1">
-          <mxGeometry x="360" y="521.71" width="128" height="128" as="geometry" />
+        <mxCell id="XRyb0xycZNulAZf5XCpH-96" value="Game builder dashboard" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678106-window-layout-128.png" vertex="1" parent="1">
+          <mxGeometry x="360" y="521" width="128" height="128" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
