@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T16:25:29.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="yGCaW6xEkx09OjQHoXJC" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-16T16:29:39.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="Kw9BA_xqGRevPLewixQP" version="13.9.9" type="github">
   <diagram id="JN9SQGumUfse3FGNZzMo" name="Page-1">
-    <mxGraphModel dx="1162" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="762" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,13 +33,13 @@
         </mxCell>
         <UserObject label="Explanation of each numbered service can be found at:&lt;br&gt;https://github.com/BindyStreet/Wiki/wiki/Auth-Architecture" link="https://github.com/BindyStreet/Wiki/wiki/Auth-Architecture" id="XRyb0xycZNulAZf5XCpH-108">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-            <mxGeometry x="20" y="90" width="320" height="60" as="geometry" />
+            <mxGeometry x="40" y="126.95" width="320" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="XRyb0xycZNulAZf5XCpH-123" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="490" y="410" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="XRyb0xycZNulAZf5XCpH-85" value="Azure storage &lt;br&gt;(stgassets0kokara)" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_mini_3;" parent="XRyb0xycZNulAZf5XCpH-123" vertex="1">
+        <mxCell id="XRyb0xycZNulAZf5XCpH-85" value="Azure DB&amp;nbsp;" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_mini_3;" parent="XRyb0xycZNulAZf5XCpH-123" vertex="1">
           <mxGeometry x="10" y="10" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="UcN_N4ubY_lVqWXa-kYl-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/integers/60/number-five-128.png" vertex="1" parent="XRyb0xycZNulAZf5XCpH-123">
