@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T14:16:45.151Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="xSN7v6vxi_PEHFVg7iuh" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-16T14:41:57.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="9gMyL0-x5JqXANzGwE16" version="13.9.7" type="github">
   <diagram id="JN9SQGumUfse3FGNZzMo" name="Page-1">
-    <mxGraphModel dx="1090" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1349" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,6 +59,12 @@
         <mxCell id="XRyb0xycZNulAZf5XCpH-49" value="Model Validation" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.infographic.shadedCube;isoAngle=10.5;fillColor=#10739E;strokeColor=none;" vertex="1" parent="XRyb0xycZNulAZf5XCpH-68">
           <mxGeometry x="320" y="170" width="120" height="109.71" as="geometry" />
         </mxCell>
+        <mxCell id="XRyb0xycZNulAZf5XCpH-103" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_2_blue-128.png" vertex="1" parent="XRyb0xycZNulAZf5XCpH-68">
+          <mxGeometry x="130" y="80" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XRyb0xycZNulAZf5XCpH-104" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_3_blue-128.png" vertex="1" parent="XRyb0xycZNulAZf5XCpH-68">
+          <mxGeometry x="410" y="160" width="20" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="XRyb0xycZNulAZf5XCpH-78" value="" style="endArrow=classic;html=1;exitX=0.011;exitY=0.634;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.995;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XRyb0xycZNulAZf5XCpH-17">
           <mxGeometry x="10" y="10" width="37.5" height="50" as="geometry">
             <mxPoint x="808.1515384615386" y="591.6074000968649" as="sourcePoint" />
@@ -83,7 +89,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XRyb0xycZNulAZf5XCpH-85" value="Azure storage for&lt;br&gt;&amp;nbsp;images&amp;nbsp;and games (.zip)&lt;br&gt;(stgassets0kokara)" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_mini_3;" vertex="1" parent="1">
+        <mxCell id="XRyb0xycZNulAZf5XCpH-85" value="Azure storage&lt;br&gt;(stgassets0kokara)" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_mini_3;" vertex="1" parent="1">
           <mxGeometry x="1160" y="440" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="XRyb0xycZNulAZf5XCpH-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.677;exitY=0.051;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XRyb0xycZNulAZf5XCpH-17" target="XRyb0xycZNulAZf5XCpH-85">
@@ -136,6 +142,23 @@
         <mxCell id="XRyb0xycZNulAZf5XCpH-96" value="Game builder dashboard" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678106-window-layout-128.png" vertex="1" parent="1">
           <mxGeometry x="360" y="521" width="128" height="128" as="geometry" />
         </mxCell>
+        <mxCell id="XRyb0xycZNulAZf5XCpH-102" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_1_blue-128.png" vertex="1" parent="1">
+          <mxGeometry x="414" y="510" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XRyb0xycZNulAZf5XCpH-105" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_4_blue-128.png" vertex="1" parent="1">
+          <mxGeometry x="1040" y="820" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XRyb0xycZNulAZf5XCpH-106" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_5_blue-128.png" vertex="1" parent="1">
+          <mxGeometry x="1280" y="460" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XRyb0xycZNulAZf5XCpH-107" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_6_blue-128.png" vertex="1" parent="1">
+          <mxGeometry x="1280" y="649" width="20" height="20" as="geometry" />
+        </mxCell>
+        <UserObject label="See here for an explanations of each numbered service." link="https://github.com/BindyStreet/Wiki/wiki/Auth-Architecture" id="XRyb0xycZNulAZf5XCpH-108">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="370" y="440" width="180" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
